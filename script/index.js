@@ -29,6 +29,21 @@ $(".move").slick({
     arrows:true,
 })//move").slick
 
+//허니버터 브래드 슬라이드
+$(".s4_left_move").slick({
+    autoplay:true,
+    dots:true,
+    arrows:false,
+    slidesToShow:1,
+    slidesToScroll:2,
+})///s4_left_move").slick
+
+//sns 탭 
+$(".section5_inner ul li").click(function(e){
+        e.preventDefault();
+        $(".section5_inner ul li").toggleClass("on");
+})//section5_inner ul li").click
+
 
 
 
