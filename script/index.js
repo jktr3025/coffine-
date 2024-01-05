@@ -46,5 +46,4 @@ $(".section5_inner ul li").click(function(e){
 
 
 
-
 })//jquery

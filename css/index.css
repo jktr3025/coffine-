@@ -683,3 +683,98 @@ top: 103px;
 z-index: 500;
 }
 
+/* answer */
+.answer{
+    position: fixed;
+    right:50px;
+    top: 390px;
+    z-index: 100 ;
+}
+.answer_inner{
+    width: 200px;
+    height: 409px;
+    background-color: #9364b4;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+.answer_inner h3{
+    text-align: center;
+    font-size: 23px;
+    color: #c0fcf0;
+    font-weight: bold;
+}
+.answer_inner p{
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    padding: 5px 0;
+    color: white;
+}
+.answer_inner input{
+    display: block;
+    width: 180px;
+    height: 46px;
+    padding: 15px 0 15px 15px;
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+
+}
+.answer_inner textarea{
+    display: block;
+    width: 100%;
+    padding: 15px 0 15px 15px;
+    margin-bottom: 10px;
+    height: 96px;
+}
+.check{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+/* border: 1px solid red; */
+
+}
+.check a{
+    font-size: 16px;
+    color: white;
+}
+.check span{
+    display: block;
+    /* border: 1px solid red; */
+    width: 16px;
+height: 16px;
+}
+.check input{
+width: 16px;
+height: 16px;
+padding-bottom: none;
+}
+form > button{
+    display: block;
+    background-color: transparent ;
+    border: none;
+    color: #c0fcf0;
+    font-size: 16px;
+}
+.send button{
+    background-color: #652f91;
+    display: block;
+    width: 180px;
+    height: 51px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 13px;
+    font-size: 23px;
+    color: white;
+}
+.top{}
+.top button{
+    width: 200px;
+    height: 31px;
+    border: none;
+    background-color: #222;
+    color: white;
+}
+.top button a{
+    display: block;
+    font-size: 16px;
+}
