@@ -683,6 +683,7 @@ top: 103px;
 z-index: 500;
 }
 
+<<<<<<< HEAD
 /* answer */
 .answer{
     position: fixed;
@@ -725,10 +726,60 @@ z-index: 500;
     padding: 15px 0 15px 15px;
     margin-bottom: 10px;
     height: 96px;
+=======
+/* answer 영역 */
+.answer{
+    width: 200px;
+    height: 440px;
+    background-color: #9364b4;
+    position: fixed;
+    top: 45%;
+    right: 100px;
+    z-index: 400;
+    text-align: center;
+}
+.answer_inner{
+    height: 409px;
+    padding: 15px 10px;
+}
+.answer_inner h3{
+    color: #b4f6ff ;
+    font-size: 22px;
+    font-weight: 800;
+}
+.answer_inner > p{
+    color: white;
+    font-size: 22px;
+    margin: 5px 0 10px;
+    font-weight: bold;
+}
+.info input{
+    display: block;
+    height: 45px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+}
+.info textarea{
+    display: block;
+    width: 100%;
+    height: 95px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.info input::placeholder{
+    font-size: 15px;
+    color: #333;
+}
+.info textarea::placeholder{
+    font-size: 15px;
+    color: #333;
+>>>>>>> 148517722f1d3d0927e8adc9399649241215ce72
 }
 .check{
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     align-items: center;
 /* border: 1px solid red; */
 
@@ -777,4 +828,58 @@ form > button{
 .top button a{
     display: block;
     font-size: 16px;
+=======
+}
+.check a{
+    font-size: 15px;
+    color: white;
+}
+.check span{}
+.check span input{
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+.info > form > button{
+    color: #b4f6ff;
+    background-color: transparent;
+    border: none;
+    text-align: left;
+    display: block;
+    font-weight: bold;
+}
+.send{
+    margin-top: 10px;
+}
+.send button{
+    border: none;
+    background-color: #56257e;
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+.top{
+    height: 31px;
+    background-color: #000;
+    width: 100%;
+}
+.top button{
+    display: block;
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.top button img{
+    vertical-align: middle !important;
+>>>>>>> 148517722f1d3d0927e8adc9399649241215ce72
 }
